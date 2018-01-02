@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>layout</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1" >	
+	
+	<link rel="stylesheet" type="text/css" href="styles/mainlayout.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Indian Premier League</h1>
+			
+		</header>
+		<nav id="mySidenav" >
+					
+	   		<a id="index" href="index.html">home</a>				    
+			<a id="s1" href="season123.html#bm1">season   1st</a>
+			<a id="s2" href="season123.html#bm2">season   2nd</a>
+			<a id="s3" href="season123.html#bm3">season   3rd</a>
+			<a id="s4" href="season456.html#bm4">season   4th</a>
+			<a id="s5" href="season456.html#bm5">season   5th</a>
+			<a id="s6" href="season456.html#bm6">season   6th</a>
+			<a id="s7" href="season789.html#bm7">season   7th</a>
+			<a id="s8" href="season789.html#bm8">season   8th</a>
+			<a id="s9" href="season789.html#bm9">season   9th</a>
+			<a id="s10" href="season789.html#bm10">season  10th</a>
+		
+		</nav>
+		<section>
+			<div class="tile">		 
+				<h1>List of <strong title="Indian Premier League">IPL</strong>   seasons and results</h1>
+								<div class="progress-container">
+						    <div class="progress-bar" id="myBar"></div>
+						  </div>
+						 <!--<div class="shake1"><img 
+						src="images/kohli.jpg" alt="kohli" width="300" height="200"></div>-->
+				<p class="content">The 2008 Indian Premier League season was the debut season of the Indian Premier League, established by the BCCI in 2007. The season commenced on 18 April 2008 with the final match held on 1 June 2008. The competition started with a double round robin group stage, in which each of the 8 teams played a home match and an away match against every other team. These matches were followed by two semi-finals and a final.</p>	
+				<div>
+					<div class="gallery">
+					  <img 
+						src="images/kohli.jpg" alt="kohli" width="300" height="200">
+					  <div class="desc">virat kohli</div>
+					</div>
+					<div class="gallery">
+					  <img src="images/sachin-kohli.jpg" alt="legends" width="300" height="200">
+					  <div class="desc">legends</div>
+					</div>
+					<div class="gallery">
+					  <img id="myimg" src="images/celebration1.jpg" alt="celebration" width="300" height="200">
+					  <div class="desc">celibrating wicket</div>
+					</div>
+					<div class="gallery">
+					  <img src="images/celebration2.jpg" alt="celebration" width="300" height="200">
+					  <div class="desc">celebrating wicket</div>
+					</div>
+					<div class="gallery">
+					  <img src="images/yuvi.jpg" alt="yuvi" width="300" height="200">
+					  <div class="desc">great moment</div>
+					</div><div class="gallery">
+					  <img src="images/byke.jpg" alt="byke" width="300" height="200">
+					  <div class="desc">great victory</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		
+		<footer>
+			©2017 Sushant
+		</footer>
+		<script>
+			window.onscroll = function() {myFunction()};
+
+			function myFunction() {
+			  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			  var scrolled = (winScroll / height) * 100;
+			  document.getElementById("myBar").style.width = scrolled + "%";
+			}
+		</script>
+	
+</body>
+</html>

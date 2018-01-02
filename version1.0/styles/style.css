@@ -1,0 +1,128 @@
+header{
+	font-size: 120%;
+	
+}
+
+
+#mySidenav a {
+    position: local;
+    margin-left : -70px;
+    transition: 0.3s;
+    padding: 15px 0 15px 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    display: block;
+}
+
+#mySidenav a:hover {
+    margin-left: 0;
+}
+
+#index {
+    top: 20px;
+    background-color: #4285f4;
+}
+
+#s1 {
+    top: 80px;
+    background-color: #FBBC05;
+}
+
+#s2 {
+    top: 140px;
+    background-color: #34A853;
+}
+
+#s3 {
+    top: 200px;
+    background-color: #EA4335;
+}
+#s4 {
+    top: 200px;
+    background-color: #b84bb4;
+}
+#s5 {
+    top: 20px;
+    background-color: #4285f4;
+}
+
+#s6 {
+    top: 80px;
+    background-color: #FBBC05;
+}
+
+#s7 {
+    top: 140px;
+    background-color: #34A853;
+}
+
+#s8 {
+    top: 200px;
+    background-color: #EA4335;
+}
+#s9 {
+    top: 200px;
+    background-color: #b84bb4;
+}
+#s10 {
+    top: 20px;
+    background-color: #4285f4;
+}
+progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}
+
+div.gallery {
+    margin: 15px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    height:200px;
+}
+img.shake:hover{
+	animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+div.gallery img:hover {
+	-webkit-transform: scaleX(-1);
+	margin: 3px;
+    transform: scaleX(-1);
+    border: 1px solid #777;
+    border-radius:5px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 85%;
+}
+
+div.desc {
+	padding: 2px;
+    text-align: center;
+}

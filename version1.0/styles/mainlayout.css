@@ -1,0 +1,48 @@
+body{
+	margin: 0; 
+	padding: 0;
+	border: 1px solid gray;
+	border-radius: 10px;
+	
+}
+div.container {
+	width: 100%;
+}
+
+header,footer {
+	 background: linear-gradient(to bottom, #395822 0%, #9ccc7b 100%);
+	color:9Cd175;	
+	text-align: center;
+	padding:1em;
+	clear :left;
+	border-radius: 10px 10px 0 0;
+}
+footer{
+	border-radius: 0 0 10px 10px;
+	font-size: 150%;
+	 background: linear-gradient(to top, #395822 0%, #9ccc7b 100%);
+}
+nav {
+	 margin:0;
+	 width: 5%;
+	 height: 700px;
+	 float:left;
+	 padding: 1em 1em 0 0;
+	 background: #9ccc7b;
+}
+section {
+	/* min-height: 550px;
+	 max-height: 650px;*/height: 700px;
+	 
+	 margin: 0 0 0 1em; 
+	 padding:0 0 0 0;
+	 border-left: 3px groove gray;border-radius: 1em ;
+	 background-color:rgba(0,255,0,0.3);
+	 color: green;
+	 overflow: scroll;
+	 background-image: url("../images/background5.jpg");
+	 background-attachment: local;
+	 background-size: 100% 100%;
+	 
+}
+

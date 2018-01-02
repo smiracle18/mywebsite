@@ -1,0 +1,69 @@
+body{
+	margin: 0; 
+	padding: 0;
+	border: 1px solid gray;
+	border-radius: 10px;
+    background-color: #777;
+}
+div.container {
+	width: 100%;
+}
+header,footer {
+	 background: linear-gradient(to bottom, #395822 0%, #9ccc7b 100%);
+	color:tomato;	
+	text-align: center;
+	padding:1em;
+	clear :left;
+	border-radius: 10px 10px 0 0;
+}
+footer{
+	border-radius: 0 0 10px 10px;
+	font-size: 150%;
+	 background: linear-gradient(to top, #395822 0%, #9ccc7b 100%);
+}
+nav {
+	 margin:0;
+	 width: 100px;
+	 height: 700px;
+	 float:left;
+	 padding: 1em 1em 0 0;
+	 background:#9ccc7b;
+}
+div.main {
+	 height: 700px;
+	 margin: 0; 
+	 padding:0 0 1em 0;
+	 border-left: 1px solid gray;
+	 overflow: scroll;
+	
+}
+section.partition {
+	border: 3px groove;
+	border-radius: 1em ;
+	background-color:rgba(0,0,255,0.3);
+	color: green;
+	margin: 10px 0 10px 0;
+	 background-image :url("../images/background5.jpg");
+	 background-attachment: local ;
+	 background-size: 100% 100%;
+
+}
+section.partition h1{
+	background-color:rgba(0,255,0,0.4);
+	color: green;
+}
+section.partition img {
+	width:150px;height: 150px;
+}
+section.partition h2{
+	background-color:rgba(0,255,0,0.3);
+	color: green;
+}
+p.writings {
+	max-width: 550px;
+}
+
+article.art img {
+	width:400px;height: 300px;
+
+}
